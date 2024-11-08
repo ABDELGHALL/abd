@@ -1,0 +1,264 @@
+.container-fluid {
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-right: 10%;
+    margin-bottom: 5000px;
+    background-color: #CDCDCD;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #EFEFEF;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    position: relative;
+    top: 5px;
+}
+
+.li {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn1 {
+    background-color: #847E7E;
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    position: relative;
+    bottom: 5px;
+}
+.menu-icon {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .menu-icon {
+        display: block;
+    }
+    .menu {
+        display: none;
+        flex-direction: column;
+        background-color: #EFEFEF;
+        position: absolute;
+        top: 70px;
+        right: 10%;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .menu.show {
+        display: flex;
+    }
+        header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu {
+        gap: 15px;
+    }
+}
+article{
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#rec{
+    background-image: url(img/Picsart_24-10-18_14-30-42-232.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    position: relative;
+    left: 240px;
+
+}
+
+h2{
+
+    color: whitesmoke;
+    font-size:40px;
+    position: relative;
+    right: 4px;
+    bottom: 15px;
+    font-weight: 900;
+    text-shadow: 2px 3px 5px #691212;
+}
+
+#p{
+    width: 600px;
+    color: aliceblue;
+
+}
+.btn{
+    border: 3px solid white;
+    border-radius: 15px;
+    background-color: black;
+    color: aliceblue;
+    width: 120px;
+    height: 30px;
+}
+
+h1{
+    color: #EFEFEF;
+    font-size: 40px;
+    text-shadow: 2px 3px 10px #000000;
+    font-weight: 900;
+
+}
+
+span{
+    color: yellow;
+   
+}
+.p2{
+    position: relative;
+    right: 120px;
+    color: aliceblue;
+}
+.p3{
+
+    width: 600px;
+    color: aliceblue;
+
+
+}
+.p4{
+    
+    width: 600px;
+    color: aliceblue;
+
+
+}
+.flex{
+    display: flex;
+}
+.f2{
+    position: relative;
+    left: 400px;
+    top: 12px;
+    color: #EFD8D8;
+}
+.f1{
+    color: #8B8989;
+}
+.d{
+    display: flex;
+    position: relative;
+    bottom: 20px;
+    color: #8F88DC;
+
+
+}
+
+.ull{
+    position: relative;
+    bottom: 30px;
+    width: 500px;
+    text-align: start;
+    color: whitesmoke;
+}
+.lii{
+    margin-top: 10px;
+
+}
+
+.box1{
+    background-image: url(img/WebHR_OG.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 190px;
+
+    width: 120px;
+    height: 120px;
+}
+.box2{
+    background-image: url(img/unnamed.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100px;
+
+    width: 120px;
+    height: 120px;
+    position: relative;
+    left: 50px;
+
+}
+.box3{
+    background-image: url(img/logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90px;
+    position: relative;
+    top: 20px;
+    width: 120px;
+    height: 80px;
+   
+}
+.hhHH{
+    position: relative;
+    top: 40px;
+    left: 5px;
+    color: #ffffff;
+}
+.hiII{
+    font-size: 5px;
+    width: 170px;
+    position: relative;
+    right: 40px;
+    top: 70px;
+    text-align: start;
+    color: #ffffff;
+}
+.ri{
+    position: relative;
+    top: 40px;
+    left: 45px;
+    color: #ffffff;
+}
+.hiII2{
+    font-size: 5px;
+    width: 140px;
+    position: relative;
+    right: 5px;
+    top: 70px;
+    color: #ffffff;
+
+}
+.bnn{
+    position: relative;
+    top: 30px;
+    left: 5px;
+    color: #ffffff;
+}
+.hiII3{
+    font-size: 5px;
+    width: 140px;
+    position: relative;
+    right: 70px;
+    top: 60px;
+    color: #ffffff;
+    text-align: start;
+
+}
